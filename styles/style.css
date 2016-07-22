@@ -1,0 +1,245 @@
+body{
+	padding: 0;
+	margin: 0 auto;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+}
+
+@font-face {
+  font-family: 'startup-font';
+  src: url('../fonts/startup-font.eot?81745674');
+  src: url('../fonts/startup-font.eot?81745674#iefix') format('embedded-opentype'),
+       url('../fonts/startup-font.woff2?81745674') format('woff2'),
+       url('../fonts/startup-font.woff?81745674') format('woff'),
+       url('../fonts/startup-font.ttf?81745674') format('truetype'),
+       url('../fonts/startup-font.svg?81745674#startup-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "startup-font";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.icon-font:before { content: '\e800'; } /* '' */
+.icon-linkedin:before { content: '\e801'; } /* '' */
+.icon-location:before { content: '\e802'; } /* '' */
+.icon-mail:before { content: '\e803'; } /* '' */
+.icon-align-justify:before { content: '\e804'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
+.icon-mobile:before { content: '\f10b'; } /* '' */
+.icon-code:before { content: '\f121'; } /* '' */
+.icon-lifebuoy:before { content: '\f1cd'; } /* '' */
+.icon-twitter:before { content: '\f309'; } /* '' */
+.icon-gplus:before { content: '\f30f'; } /* '' */
+
+.container{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*--------------------------------general--------------------------------*/
+a,a:hover,a:active{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/*--------------------------------HEADER--------------------------------*/
+
+.header{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+	position: relative;
+	background: url('../images/header-bg.jpg')no-repeat center;
+	max-height: 770px;
+}
+
+.header::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.45);
+	z-index: 0;
+}
+
+.header .container{
+	position: relative;
+	z-index: 5;
+}
+
+.navigation{
+	/*display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;*/
+	z-index: 5;
+}
+
+.brand{
+	float: left;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 24px;
+	margin: 40px 0;
+	z-index: 5;
+}
+
+.brand:hover{
+	color: #F36363;
+	transition: .4s;
+}
+
+.navmenu{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+	justify-content: flex-end;
+}
+
+.nav{
+	align-items: center;
+	list-style: none;
+	z-index: 3;
+}
+
+.nav li{
+	float: left;
+	margin: 45px 16px;
+}
+
+.nav li:first-child{
+	margin-left: 0;
+}
+
+.nav li:last-child{
+	margin-right: 0;
+}
+
+.nav li a{
+	display: inline-block;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.nav li a:hover{
+	color: #F36363;
+	transition: .4s;
+}
+
+.main-content{
+	padding: 215px 0 255px 0;
+	align-items: center;
+	text-align: center;	
+}
+
+.main-content-header{
+	color: #fff;
+	font-size: 50px;
+	line-height: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.main-content-title{
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 30px 0 73px 0;
+}
+
+.main-content-link{
+	color: #fff;
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	padding: 17px 32px;
+	font-size: 16px;
+	line-height: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-content-link:hover{
+	color: #F36363;
+	transition: .4s; 
+	border: 2px solid #F36363;
+}
+/*--------------------------------SERVICES--------------------------------*/
+
+
+
+
+/*--------------------------------ABOUT US--------------------------------*/
+
+
+
+
+
+/*--------------------------------LATEST WORKS--------------------------------*/
+
+
+
+
+
+/*--------------------------------YOUR PROJECT--------------------------------*/
+
+
+
+
+
+
+/*--------------------------------RECENT BLOG POST--------------------------------*/
+
+
+
+/*--------------------------------SLIDER--------------------------------*/
+
+
+
+/*--------------------------------GET IN TOUCH--------------------------------*/
+
+
+
+
+/*--------------------------------FOOTER--------------------------------*/
