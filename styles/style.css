@@ -103,11 +103,6 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 .navigation{
-	/*display: -webkit-box;
-  	display: -moz-box;
-  	display: -webkit-flex;
-  	display: -ms-flexbox;
-  	display: flex;*/
 	z-index: 5;
 }
 
@@ -144,7 +139,7 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 
 .nav li{
 	float: left;
-	margin: 45px 16px;
+	margin: 42px 16px;
 }
 
 .nav li:first-child{
@@ -160,7 +155,7 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	line-height: 14px;
+	line-height: 15px;
 }
 
 .nav li a:hover{
@@ -169,9 +164,19 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 .main-content{
-	padding: 215px 0 255px 0;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+	padding: 240px 0;
 	align-items: center;
 	text-align: center;	
+	flex-direction: column;
+}
+
+.header-content{
+
 }
 
 .main-content-header{
@@ -201,9 +206,8 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 .main-content-link:hover{
-	color: #F36363;
+	background-color: #c0301c;
 	transition: .4s; 
-	border: 2px solid #F36363;
 }
 /*--------------------------------SERVICES--------------------------------*/
 
