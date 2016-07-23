@@ -71,7 +71,37 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	margin: 0;
 }
 
+.general-sections-header{
+	padding-top: 100px;
+	/*text-align: center;*/
+}
 
+.section-header{
+	color: #555;
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.section-title{
+	position: relative;
+	color: #555;
+	font-size: 16px;
+	line-height: 16px;
+	padding: 64px 0 0 0;
+}
+
+.section-title::before{
+	position: absolute;
+	content: '';
+	width: 50px;
+	height: 2px;
+	top: 32px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #555;
+}
 
 /*--------------------------------HEADER--------------------------------*/
 
@@ -210,7 +240,13 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	transition: .4s; 
 }
 /*--------------------------------SERVICES--------------------------------*/
-
+.services{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
 
 
 
