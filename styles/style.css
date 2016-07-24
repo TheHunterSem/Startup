@@ -72,8 +72,16 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 .general-sections-header{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+	flex-direction: column;
 	padding-top: 100px;
-	/*text-align: center;*/
+	align-items: center;
 }
 
 .section-header{
@@ -106,11 +114,6 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 /*--------------------------------HEADER--------------------------------*/
 
 .header{
-	display: -webkit-box;
-  	display: -moz-box;
-  	display: -webkit-flex;
-  	display: -ms-flexbox;
-  	display: flex;
 	position: relative;
 	background: url('../images/header-bg.jpg')no-repeat center;
 	max-height: 770px;
@@ -241,11 +244,11 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 /*--------------------------------SERVICES--------------------------------*/
 .services{
-	display: -webkit-box;
+	/*display: -webkit-box;
   	display: -moz-box;
   	display: -webkit-flex;
   	display: -ms-flexbox;
-  	display: flex;
+  	display: flex;*/
 }
 
 
