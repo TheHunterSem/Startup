@@ -40,6 +40,8 @@ body{
 .icon-location:before { content: '\e802'; } /* '' */
 .icon-mail:before { content: '\e803'; } /* '' */
 .icon-align-justify:before { content: '\e804'; } /* '' */
+.icon-up:before { content: '\e805'; } /* '' */
+.icon-up-bold:before { content: '\e806'; } /* '' */
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-mobile:before { content: '\f10b'; } /* '' */
 .icon-code:before { content: '\f121'; } /* '' */
@@ -109,6 +111,30 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	left: 50%;
 	transform: translateX(-50%);
 	background-color: #555;
+}
+
+#scrollup {
+	position: fixed;
+	padding: 15px;
+	background: #555;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+	cursor: pointer;
+}
+/*#c0301c;*/
+
+#scrollup:hover{
+	background: #c0301c;
+	transition: .4s;
+}
+
+.icon-up{
+	color: #fff;
+	font-size: 25px;
 }
 
 /*--------------------------------HEADER--------------------------------*/
@@ -243,15 +269,58 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	transition: .4s; 
 }
 /*--------------------------------SERVICES--------------------------------*/
-.services{
-	/*display: -webkit-box;
+.services-content{
+	margin: 72px 0 95px 0;
+	display: -webkit-box;
   	display: -moz-box;
   	display: -webkit-flex;
   	display: -ms-flexbox;
-  	display: flex;*/
+  	display: flex;
+	justify-content: center;
 }
 
+.services-content-item{
+	text-align: center;
+	margin: 0 15px 0 15px;
+	max-width: 365px;
+	transition: .4s;
+}
 
+.services-content-item:first-child {margin-left: 0;}
+.services-content-item:last-child {margin-right: 0;}
+
+.services-content-item:hover .services-content-icon{
+	color: #fff;
+	background-color: #c0301c;
+	transition: .4s;
+}
+
+.services-content-icon{
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	background-color: #fff;
+	border-radius: 100%;
+	border: 2px solid #ddd;
+	align-items: center;
+	justify-content: center;
+	font-size: 47px;
+	color: #c0301c;
+}
+
+.services-content-header{
+	padding: 30px 0 26px 0;
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.services-content-title{
+	font-size: 14px;
+	line-height: 24px;
+	color: #555;
+}
 
 /*--------------------------------ABOUT US--------------------------------*/
 
