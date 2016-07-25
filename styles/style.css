@@ -323,11 +323,34 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 /*--------------------------------ABOUT US--------------------------------*/
+.about-us{
+	background-color: #f8f8f8;
+}
 
+.about-us-content{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  }
 
+.left-content{
+	margin: 70px 15px 0 0;
+}
 
+.right-content{
+	margin: 70px 0 0 15px;
+}
 
-
+.left-content p,
+.right-content p{
+	max-width: 560px;
+	width: 100%;
+	color: #555;
+}
 /*--------------------------------LATEST WORKS--------------------------------*/
 
 
