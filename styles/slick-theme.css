@@ -1,0 +1,105 @@
+@charset 'UTF-8';
+/* Slider */
+/*.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}*/
+
+/* Icons */
+
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #8f8f8f;
+}
+.slick-prev:hover,
+.slick-next:hover
+{
+    color: #dddddd;
+    outline: none;
+    background: #c0301c;
+}
+
+/*.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    outline: none;
+}
+*/
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'startup-font';
+    font-size: 15px;
+    line-height: 1;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+    -moz-transform: rotate(-90deg); /* Для Firefox */
+    -ms-transform: rotate(-90deg); /* Для IE */
+    -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-90deg); /* Для Opera */
+    transform: rotate(-90deg);
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '\e805';
+
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '\e805';
+}
+
+.slick-next
+{
+    right: -25px;
+    -moz-transform: rotate(90deg); /* Для Firefox */
+    -ms-transform: rotate(90deg); /* Для IE */
+    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg); /* Для Opera */
+    transform: rotate(90deg);
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+   content: '\e805';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '\e805';
+}
