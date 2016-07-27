@@ -354,7 +354,11 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	color: #555;
 }
 
-.about-us-slider img{
+.slider-item{
+	text-align: center;
+}
+
+.slider-item img{
 	display: inline-block;
 	max-width: 263px;
 	max-height: 250px;
