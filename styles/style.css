@@ -576,9 +576,89 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 
-
 /*--------------------------------RECENT BLOG POST--------------------------------*/
+.blos-items{
+	padding: 35px 0 65px 0;
+}
 
+.blog-item{
+	padding: 35px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.blog-item:last-child{
+	border: none;
+}
+
+.blog-item img{
+	float: left;
+}
+
+.blog-item-content{
+	float: left;
+	vertical-align: top;
+	margin-left: 40px;
+}
+
+.date-post{
+	float: left;
+	text-align: center;
+	border: 2px solid #555;
+	padding: 10px 15px;
+}
+
+.date-post p{
+	color: #555;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.header-post{
+	float: left;
+	font-size: 16px;
+	line-height: 16px;
+	color: #555;     
+	text-transform: uppercase;
+	margin: 13px 0 0 28px;
+}
+
+.post-header{
+	float: left;
+}
+
+.header-post-item{
+	float: left;
+	display: block;
+	font-style: italic;
+	margin: 19px 0 0 28px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #555;  
+}
+
+.post-text{
+	margin-top: 20px;
+	float: left;
+	max-width: 640px;
+	line-height: 28px;
+	color: #555;
+}
+
+.post-link{
+	margin-top: 37px;
+	float: left;
+	text-transform: uppercase;
+	color: #555
+	font-weight: bold;
+}
+
+.blog-item:hover .header-post,
+.blog-item:hover .post-item-hover,
+.blog-item:hover .post-link{
+	color: #c0301c;
+}
 
 
 /*--------------------------------SLIDER--------------------------------*/
