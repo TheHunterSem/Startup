@@ -441,8 +441,21 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	color: #c0301c;
 }
 
+.latest-works-images{
+	margin: 60px 0 90px 0;
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	flex-wrap: wrap;
+}
+
 .latest-works-item{
 	position: relative;
+	margin: 10px;
 	max-width: 360px;
 	max-height: 320px;
 	width: 100%;
@@ -492,12 +505,17 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 }
 
 .latest-works-item-hover-link{
-	color: #c0301c;
-	background-color: #fff;
+	color: #fff;
+	border: 1px solid #fff;
 	font-size: 14px;
 	line-height: 14px;
 	padding: 12px 35px;
 	text-transform: uppercase;
+}
+
+.latest-works-item-hover-link:hover{
+	color: #FF9090;
+	border: 1px solid #FF9090;
 }
 
 /*--------------------------------YOUR PROJECT--------------------------------*/
