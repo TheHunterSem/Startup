@@ -126,6 +126,7 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	bottom: 10px;
 	display: none;
 	cursor: pointer;
+	z-index: 9999;
 }
 /*#c0301c;*/
 
@@ -522,10 +523,57 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	border: 1px solid #FF9090;
 }
 
+
+
 /*--------------------------------YOUR PROJECT--------------------------------*/
+.your-project{
+	position: relative;
+	background: url('../images/your-project-bg.jpg') no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	z-index: 1;
+}
 
+.your-project::after{
+	position: absolute;
+	content: '';
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(192,48,28,.6);
+}
 
+.your-project-header{
+	position: relative;
+	display: inline-block;
+	margin: 100px 0 70px 0;
+	font-size: 30px;
+	line-height: 30px;
+	color: #fff;
+	max-width: 460px;
+	z-index: 5;
+	font-weight: normal;
+}
 
+.your-project-link{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 16px 25px;
+	margin-bottom: 100px;
+	border: 2px solid #fff;
+	z-index: 5;
+	text-transform: uppercase;
+}
+
+.your-project-link:hover{
+	color: #F36363;
+	border: 2px solid #F36363;
+}
 
 
 
