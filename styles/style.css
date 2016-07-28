@@ -513,6 +513,10 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 	text-transform: uppercase;
 }
 
+.latest-works-item-hover-link span{
+	font-size: 20px;
+}
+
 .latest-works-item-hover-link:hover{
 	color: #FF9090;
 	border: 1px solid #FF9090;
