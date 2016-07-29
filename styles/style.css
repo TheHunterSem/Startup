@@ -704,8 +704,80 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 
 
 /*--------------------------------GET IN TOUCH--------------------------------*/
+.contacts{
+	margin-top: 70px;
+}
+
+.contacts-info{
+	float: left;
+	max-width: 260px;
+}
+
+.contacts-info-header{
+	margin-top: 30px;
+	display: inline-block;
+	color: #555;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.icon-location,
+.icon-mobile,
+.icon-mail{
+	font-size: 16px;
+	color: #555;
+}
 
 
+.contacts-title{
+	margin: 10px 0 0 27px;
+	font-family: 'Montserrat', sans-serif;
+	color: #555;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.contacts-form{
+	margin-left: 150px;
+	max-width: 725px;
+	float: left;
+}
+
+input[type="text"]{
+	float: left;
+	width: 320px;
+	outline: none;
+	border: 1px solid #555;
+	padding: 15px 0 15px 17px;
+	margin: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.your-message{
+	width: 693px;
+	height: 103px;
+	resize: none;
+	outline: none;
+	margin: 10px;
+	border: 1px solid #555;
+	padding: 15px 0 15px 17px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input[type="submit"]{
+	float: left;
+	color: #555;
+	outline: none;
+	border: 1px solid #555;
+	font-size: 12px;
+	line-height: 12px;
+	background: transparent;
+	font-family: 'Montserrat', sans-serif;
+	padding: 16px 35px;
+	margin: 10px;
+}
 
 
 /*--------------------------------FOOTER--------------------------------*/
