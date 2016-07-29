@@ -705,7 +705,7 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 
 /*--------------------------------GET IN TOUCH--------------------------------*/
 .contacts{
-	margin-top: 70px;
+	padding: 70px 0 450px 0;
 }
 
 .contacts-info{
@@ -777,8 +777,39 @@ input[type="submit"]{
 	font-family: 'Montserrat', sans-serif;
 	padding: 16px 35px;
 	margin: 10px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	border: 1px solid #c0301c;
+	color: #c0301c;
 }
 
 
 /*--------------------------------FOOTER--------------------------------*/
+.footer{
+	background-color: #c0301c;
+}
 
+.footer .section-title{
+	color: #fff;
+	padding-bottom: 100px;
+}
+
+.footer .section-title::before{
+	background-color: #fff;
+}
+
+.footer-social{
+	list-style: none;
+}
+
+.footer-social li{
+	display: inline-block;
+}
+
+.social-footer{
+	color: #fff;
+	font-size: 20px;
+	margin: 15px;
+}
