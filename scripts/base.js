@@ -32,8 +32,9 @@ $(document).ready(function() {
 
 
 
+// about-us-slider
 
-$('.responsive').slick({
+$('.about-slider').slick({
   dots: false,
   infinite: true,
   speed: 800,
@@ -63,8 +64,11 @@ $('.responsive').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ]
 });
+
+
+
+// clients-slider
+
+$('.clients-slider').slick();

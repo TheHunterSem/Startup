@@ -662,7 +662,45 @@ h1,h2,h3,h4,h5,h6,ul,li,p,a,span{
 
 
 /*--------------------------------SLIDER--------------------------------*/
+.clients-slider-block{
+	background-color: #f8f8f8;
+	padding: 95px 0;
+}
 
+.clients-slider{
+	text-align: center;
+}
+
+.logos{
+	display: inline-block;
+	list-style: none;
+}
+
+.logos li{
+	display: inline-block;
+}
+
+.logos li a {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 15px;
+}
+
+.clients-slider-text{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 777px;
+	margin: 67px 0 40px 0;
+	color: #555;
+	font-style: italic;
+}
+
+.clients-slider-title{
+	color: #555;
+	font-size: 16px;
+	line-height: 16px;
+}
 
 
 /*--------------------------------GET IN TOUCH--------------------------------*/
